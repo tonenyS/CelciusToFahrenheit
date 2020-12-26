@@ -1,11 +1,25 @@
-function toCelsius (){
-    var x = document.getElementById("myText").value;
-    let clValue = (x - 32) * 5 /9
-    var x2 = document.getElementById("myText2").value;
-    let clValue2 = x2 * 9/5 +32
-    // value = parseInt(value)
-    document.getElementById("sum").innerHTML = clValue.toFixed(2)
-    document.getElementById("sum2").innerHTML = clValue2
+function toCelsius (fahrenheit){
+    let = value = (fahrenheit - 32) * 5 / 9
+    return value.toFixed(2) + "C"
 } 
 
+function display (elementId, value){
+    document.getElementById().innerHTML = "<br>"+value+"</br>"+"<br>"+elementId+"</br>"
+}
+
+function toFahrenheit(celsius)
+{
+    let value = (celsius * 9) / 5 +32
+    return value.toFixed(2) + "F";
+}
+
+function toCelsiusProgram(value)
+{
+    alert(toCelsius(value))
+}
+
+function toFahrenheitProgram(value)
+{
+    alert(toFahrenheit(value))
+}
 

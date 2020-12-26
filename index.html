@@ -1,18 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <center><h1>โปรแกรมแปลง F TO C</h1>
-        <input type="text" id="myText" value="">
-        <input type="text" id="myText2" value="">
-        <button onclick="toCelsius()">calulate</button>
-        <p id="sum" value="">
-        <p id="sum2" value=""></p>
-</center>
-    <script src="app.js"></script>
-</body>
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+      <h1>โปรแกรมแปลงหน่วย</h1>
+      <input type="text" id ="inputValue">
+      <button onclick="toCelsiusProgram(document.getElementById('inputValue').value)" >แปลงหน่อย Celsius</button>
+      <button onclick="toFahrenheitProgram(document.getElementById('inputValue').value)">แปลงเป็น Fahrenheit</button>
+      <script src="app.js"></script>
+    </body>
 </html>
